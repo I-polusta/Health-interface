@@ -1,0 +1,46 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.card__container {
+  display: flex;
+  flex-direction: row;
+}
+
+.first {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+  justify-content: left;
+}
+.notify {
+  margin: auto;
+  padding-left: 90px;
+  align-content: flex-end;
+}
+
+.setting {
+  padding: auto;
+  margin: auto;
+  padding-left: 5px;
+}
+
+h2 {
+  font-size: 22px;
+  text-align: left;
+}
+
+.txt__first {
+  font-size: 17px;
+}
+
+.item {
+  background-color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  .notify {
+    padding-left: 30px;
+  }
+}
